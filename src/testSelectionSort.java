@@ -56,7 +56,7 @@ public class testSelectionSort {
         int[] sortedArr = sorter.basicSelectionSort(arr);
 
         int[] expectedSortedArr = {-2, -2, 0, 5, 5};
-        assertArrayEquals(expectedSortedArr, sortedArr, "Array is sorted in ascending order!!");
+        assertArrayEquals(expectedSortedArr, sortedArr, "Array is sorted in ascending order!!!");
     }
 
 }
