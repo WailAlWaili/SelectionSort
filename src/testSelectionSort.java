@@ -22,7 +22,7 @@ public class testSelectionSort {
         int[] sortedArr = sorter.basicSelectionSort(arr);
 
         int[] expectedSortedArr = {2, 7, 8, 9, 10};
-        assertArrayEquals(expectedSortedArr, sortedArr, "Array is sorted in ascending order.");
+        assertArrayEquals(expectedSortedArr, sortedArr, "Array is sorted in ascending order!");
     }
     @Test
     public void testNegative(){
@@ -32,7 +32,7 @@ public class testSelectionSort {
         int[] sortedArr = sorter.basicSelectionSort(arr);
 
         int[] expectedSortedArr = {-5, -4, -3, -2, -1};
-        assertArrayEquals(expectedSortedArr, sortedArr, "Array is sorted in ascending order.");
+        assertArrayEquals(expectedSortedArr, sortedArr, "Array is sorted in ascending order!");
     }
 
 
@@ -44,7 +44,7 @@ public class testSelectionSort {
         int[] sortedArr = sorter.basicSelectionSort(arr);
 
         int[] expectedSortedArr = {-2, -1, 0, 3, 5};
-        assertArrayEquals(expectedSortedArr, sortedArr, "Array is sorted in ascending order.");
+        assertArrayEquals(expectedSortedArr, sortedArr, "Array is sorted in ascending order!");
     }
 
 
@@ -56,7 +56,7 @@ public class testSelectionSort {
         int[] sortedArr = sorter.basicSelectionSort(arr);
 
         int[] expectedSortedArr = {-2, -2, 0, 5, 5};
-        assertArrayEquals(expectedSortedArr, sortedArr, "Array is sorted in ascending order.");
+        assertArrayEquals(expectedSortedArr, sortedArr, "Array is sorted in ascending order!!");
     }
 
 }
